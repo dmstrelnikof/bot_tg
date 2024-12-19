@@ -550,9 +550,7 @@ async def handle_year_callback(update: Update, context: ContextTypes.DEFAULT_TYP
 
 def main():
     application = (
-        Application.builder()
-        .token('7032528186:AAHDebe5KwBDshf_qfvgtzmxwUU_h_fdSJU')
-        .build()
+        Application.builder().token('TOKEN TELEGRAM').build()
     )
     
     conv_handler = ConversationHandler(
